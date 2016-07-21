@@ -20,6 +20,7 @@ h2 {
   text-align: center;
   color: #228DFF;
   letter-spacing: 2px;
+  line-height:1.5em;
   font-family: Pacifico;
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
