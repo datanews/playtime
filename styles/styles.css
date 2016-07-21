@@ -4,7 +4,7 @@ body {
 
 h1 {
   font-size: 6em;
-  margin: 2em;
+  margin: 1.5em 2em .5em 2em;
   text-align: center;
   color: #fff;
   letter-spacing: 2px;
@@ -43,6 +43,25 @@ li {
   font-family: Helvetica;
   margin-bottom: 2em;
   font-size: 1em;
+}
+
+.timer {
+  text-align: center;
+  color: #fff;
+}
+
+/*.st0 {
+  fill:#FFDA00;
+  stroke:#FFDA00;
+  stroke-width:2;
+  stroke-miterlimit:10;
+}*/
+
+img {
+  width:20px;
+  height:20px;
+  margin-right: 6px;
+  vertical-align: center;
 }
 
 @-webkit-keyframes neon1 {
