@@ -14,6 +14,31 @@ h1 {
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
+h2 {
+  font-size: 3em;
+  margin: 2em;
+  text-align: center;
+
+  color: #fff;
+  font-family: Monoton;
+ 
+}
+
+h3 {
+  font-size: 2em;
+  margin: 2em;
+  text-align: center;
+  color: #fff;
+  font-family: Monoton;
+ 
+}
+
+li{
+  text-decoration: none;
+  color:#fff;
+  text-align: center;
+}
+
 @-webkit-keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
