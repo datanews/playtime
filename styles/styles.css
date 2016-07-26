@@ -1,12 +1,18 @@
 body {
   background-color: #232323;
+  font-family: "Open Sans";
+  color: #FFFFFF;
+}
+
+.page-wrapper {
+  padding: 0 0.5em;
 }
 
 h1 {
   font-size: 6em;
-  margin: 1.5em 2em .5em 2em;
+  margin: 1.5em 0 .5em 0;
   text-align: center;
-  color: #fff;
+  color: #FFFFFF;
   letter-spacing: 2px;
   font-family: Monoton;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -36,18 +42,30 @@ h3 {
   font-family: Monoton;
 }
 
-li {
-  text-decoration: none;
-  color:#fff;
-  text-align: center;
-  font-family: Helvetica;
-  margin-bottom: 2em;
-  font-size: 1em;
+.about {
+  max-width: 30em;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin: 0 auto;
+  color: #FFFFFF;
+  text-align: justify;
 }
 
-.timer {
-  text-align: center;
-  color: #fff;
+.design ul {
+  text-decoration: none;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.design li {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  list-style-image: url("../img/star-small.png");
+}
+
+footer {
+  margin-bottom: 3em;
 }
 
 /*.st0 {
