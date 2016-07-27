@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="styles/reset.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic" rel="stylesheet" type="text/css">
@@ -23,11 +24,15 @@
     <h1>Playtime!</h1>
 
     <section class="about">
-      The shortest, tiniest make event.  How quickly can you accomplish a fun, meaningful task?  It could be a more fully-formed idea, a better title and mission for an existing project, a paper prototype of a news app, a drawing of a visualization, an interview process and actual interview, a quickly coded prototype, code tests for a project, a new logo, and so much more.
+      How quickly can you make something?  <strong>Playtime</strong> is all about trying to quickly and playfully get something done.  That something could be anything &mdash; a more fully-formed idea, a better title and mission for an existing project, a paper prototype of a news app, a drawing of a visualization, an interview process and actual interview, a quickly coded prototype, code tests for a project, a new logo, and so much more.
+    </section>
+
+    <section class="about-time">
+      You have one hour.
     </section>
 
     <section class="design">
-      <h2>Tips for Designing at Ludicrous Speed</h2>
+      <h2>Making at Ludicrous Speed</h2>
 
       <h3>Before Take-Off</h3>
       <ul>
@@ -36,27 +41,45 @@
         <li>Choose one idea that expresses your goal and is most achievable given time constraints</li>
       </ul>
 
+      <div class="timer ideas">
+        <span class="time"></span>
+        <span class="play"><i class="fa fa-play"></i><i class="fa fa-pause"></i></span>
+        <span class="restart"><i class="fa fa-refresh"></i></span>
+      </div>
+
       <h3>In Flight</h3>
       <ul>
         <li>Keep a clear vision</li>
         <li>Take one step at a time</li>
         <li>Only make decisions that are consistent with your vision</li>
-        <li>Go!</li>
+        <li>Test it with people who don't know what you are doing, find out what doesn't make sense to them.</li>
       </ul>
+
+      <div class="timer work">
+        <span class="time"></span>
+        <span class="play"><i class="fa fa-play"></i><i class="fa fa-pause"></i></span>
+        <span class="restart"><i class="fa fa-refresh"></i></span>
+      </div>
 
       <h3>Landing</h3>
       <ul>
-        <li>DONE?!  This was just a prototype!</li>
-        <li>Test it with three people who don't know what you are doing, find out what doesn't make sense to them.</li>
-        <li>Adjust Design, Take Off again</li>
+        <li>DONE?! Maybe for now, but always adjust the design and take-off again and again.</li>
+        <li>Share.  Send an image/screenshot/photo named <code>YOUR-NAME.jpg</code> to <strong>alan.palazzolo@gmail.com</strong>
       </ul>
+
+      <div class="timer finished">
+        <span class="time"></span>
+        <span class="play"><i class="fa fa-play"></i><i class="fa fa-pause"></i></span>
+        <span class="restart"><i class="fa fa-refresh"></i></span>
+      </div>
     </section>
 
     <footer>
-      <p class="credits">SRCCON Session by Alan Palazzolo, Design Tips by Clarisa Diaz. We work at WNYC on the Data News Team.</p>
+      <p class="credits">SRCCON Session by Alan Palazzolo and Clarisa Diaz of WNYC on the Data News Team.</p>
     </footer>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="lib/easytimer.min.js"></script>
   <script src="js/app.js"></script>
 </body>
