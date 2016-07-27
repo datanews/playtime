@@ -8,7 +8,7 @@
 
   // Make timers
   function makeTimers() {
-    [{ c: "ideas", m: 1 }, { c: "work", m: 50 }, { c: "finished", m: 5 }].forEach(function(t) {
+    [{ c: "ideas", m: 5 }, { c: "work", m: 50 }, { c: "finished", m: 5 }].forEach(function(t) {
       var timer = new Timer();
       var $timer = $(".timer." + t.c);
       var $time = $(".timer." + t.c + " .time");
